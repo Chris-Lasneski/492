@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/personal_header">
+        <EditTextPreference
+            app:useSimpleSummaryProvider="true"
+            app:key="@string/your_name"
+            app:title="@string/personal_name" />
+
+        <EditTextPreference
+            app:useSimpleSummaryProvider="true"
+            app:title="@string/personal_latitude"
+            app:key="@string/your_latitude"
+            />
+
+        <EditTextPreference
+            app:useSimpleSummaryProvider="true"
+            app:title="@string/personal_longitude"
+            app:key="@string/your_longitude"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
